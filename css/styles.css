@@ -1,0 +1,349 @@
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.body {
+    font-family: 'Roboto','Raleway', sans-serif;
+    background: #FFFFFF;
+    width: 1600px;
+}
+
+.container{
+    width: 1200px;
+}
+
+.header{
+    height: 80px;
+    display: flex;
+}
+
+.main-tittle {
+    line-height: 1.17;
+    text-decoration: none;
+    color: #2196F3;
+    letter-spacing: 0.03;
+    width: 145px;
+    height: 31px;
+    margin-top: 24px;
+    margin-bottom: 25px;
+    margin-left: 215px;
+    margin-right: 93px;
+    font-size: 26px;
+}
+
+.rest-tittle {
+    color: #212121;
+}
+
+.menu{
+    display: inline-flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    font-size: 14px;
+}
+
+.contact-menu{
+    display: inline-flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.studio {
+    color: #212121;
+    line-height: 1.17;
+    text-decoration: none;
+    letter-spacing: 0.03;
+    width: 53px;
+    margin-right: 46px;
+}
+
+.portfolio {
+    color: black;
+    text-decoration: none;
+    line-height: 1.17;
+    letter-spacing: 0.02;
+    width: 58px;
+    margin-right: 46px;
+}
+
+.contacts {
+    color: black;
+    text-decoration: none;
+    line-height: 1.17;
+    letter-spacing: 0.02;
+    width: 51px;
+    margin-right: 371px;
+}
+
+.email {
+    color: #212121;
+    line-height: 1.17;
+    text-decoration: none;
+    letter-spacing: 0.02;
+    width: 110px;
+    margin-right: 50px;
+}
+ 
+.phone {
+    color: black;
+    text-decoration: none;
+    line-height: 1.17;
+    letter-spacing: 0.02;
+    width: 135px;
+    margin-right: 227px;
+}
+
+.portfolio:hover,
+.studio:hover,
+.contacts:hover,
+.email:hover,
+.phone:hover,
+.second-email:hover,
+.second-phone:hover {
+    color:#2196F3;
+    text-decoration: none;
+}
+
+.request {
+    background-color:#2F303A;
+    color: white;
+    line-height: 1.36;
+    letter-spacing: 0.06;
+    height: 600px;
+}
+
+.request-txt{
+    line-height: 1.36;
+    width: 696px;
+    height: 120px;
+    margin-left: 452px;
+    padding-top: 200px;
+    margin-right: 452px;
+    font-size: 44px;
+    text-align: center;
+       
+}
+
+.button { 
+    background-color: #2196F3;
+    line-height: 1.87;
+    color: white;
+    letter-spacing: 0.06;
+    cursor: pointer;
+    font-size: 16px;
+    padding-top: 10px;
+    padding-right: 42px;
+    padding-left: 42px;
+    padding-bottom: 10px;
+    margin: 100px 700px 200px 700px;
+}
+
+.section{
+    display: flex;
+    width: 1200px;
+    padding-top: 94px;
+    padding-bottom: 94px;
+    margin-left: 215px;
+}
+.about-us{
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-tittle {
+    color: #212121;
+    line-height: 1.14;
+    font-weight: 700px;
+    letter-spacing: 0.03;
+    font-size: 14px;
+}
+
+.about-description {
+    color: #757575;
+    line-height: 1.71;
+    font-weight: 400px;
+    letter-spacing: 0.03;
+    width: 270px;
+    font-size: 14px;
+}
+
+.job-tittle {
+    color:#212121;
+    line-height: 1.16;  
+    letter-spacing: 0.03;
+    margin-top: 94px;
+    margin-left: 624px;
+    font-size: 36px;
+}
+
+.job-photo{
+    display: flex;  
+    flex-direction: row;
+    list-style-type: none;
+    margin-top: 50px;
+    margin-left: 180px;
+}
+
+.job-img{
+    margin-right: 30px;
+}
+.team-section {
+    background-color: #F5F4FA;
+    height: 648px;
+}
+
+.team {
+    color:#212121;
+    line-height: 1.16;
+    letter-spacing: 0.03;
+    white-space: nowrap;
+    font-size: 36px;
+    margin-top: 188px;
+    margin-left: 695px;
+}
+
+.team-photo{
+    display: flex;  
+    flex-direction: row;
+    list-style-type: none;
+    width: 1200px;
+    margin-top: 50px;
+    margin-right: 215px;
+}
+
+.our.photo{
+    font-size: 16px;
+}
+
+.name {
+    color:#212121;
+    line-height: 1.17;
+    font-weight: 500px;
+    letter-spacing: 0.03;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.position {
+    color: #757575;
+    line-height: 1.17;
+    font-weight: 400px;
+    letter-spacing: 0.03;
+    display: block;
+    margin-top: 10px;
+}
+
+.footer {
+    background-color: #2F303A;
+    display: flex;
+}
+
+.second-main-tittle {
+    color: #2196F3;
+    text-decoration: none;
+    line-height: 1.38;
+    letter-spacing: 0.03;
+    font-size: 26px;
+    margin-left: 215px;
+}
+
+.second-rest-tittle {
+    color: #FFFFFF;
+}
+
+.address {
+    color: white;
+    line-height: 1.71;
+    font-weight: 400px;
+    letter-spacing: 0.03;
+    margin-top: 20px;
+    margin-left: 215px;
+}
+
+.second-email {
+    color: #FFFFFF;
+    opacity: 60%;
+    line-height: 1.17;
+    font-weight: 400px;
+    text-decoration: none;
+    letter-spacing: 0.03;
+    display: block;
+    margin-top: 9px;
+}
+
+.second-phone {
+    color: #FFFFFF;
+    opacity: 60%;
+    line-height: 1.17;
+    font-weight: 400px;
+    text-decoration: none;
+    letter-spacing: 0.03;
+    display: block;
+    margin-top: 9px;
+}
+
+.button-list{
+    display:flex;
+    list-style-type: none;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-left: 532px;
+}
+
+.menu-button {
+    color: #212121;
+    background-color: #F5F4FA;
+    text-decoration: none;
+    letter-spacing: 0.03;
+    cursor: pointer;
+    border: none;
+    font-weight: 500;
+    line-height: 1.62;
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;  
+    flex-direction: row;
+    padding: 6px 22px;
+    margin-right: 52px;
+}
+
+.menu-button:hover {
+    color: #FFFFFF;
+    background-color: #2196F3;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #7e7676;
+    }
+
+.photo-list{
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    flex-wrap: wrap;
+    width: 1600px;
+    margin-top: 56px;
+    margin-left: 215px;
+    margin-right: 215px;
+}
+
+.second-name {
+    line-height: 2;
+    font-weight: 700;
+    color:#212121;
+    letter-spacing: 0.06;
+    text-align:left;
+}
+.categories {
+    line-height: 1.87;
+    color: #757575;
+    font-weight: 400;
+    letter-spacing: 0.03;
+    display: block;
+}
