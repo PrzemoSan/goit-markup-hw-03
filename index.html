@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link href="css/styles.css" rel="stylesheet" />
+    <link href="./css/styles.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
@@ -18,26 +18,26 @@
         <h4>
             <a class="main-tittle" href="./index.html">Web<span class="rest-tittle">Studio</span></a>
         </h4>
-        <nav>
-            <ul class="menu">
+        <nav class="menu">
+            <ul class="menu-list">
                 <li><a class="studio" href="./studio">Studio</a></li>
                 <li><a class="portfolio" href="./portfolio.html">Portofolio</a></li>
                 <li><a class="contacts" href="./contacts">Contacts</a></li>
             </ul>
         </nav>
-        <ul class="contact-menu">
+        <ul class="contact-list">
             <li><a class="email" href=".info@dexstudio@info.com">info@devstudio.com</a></li>
-            <li class="phone">+38 111 111 111</li>
+            <li class="phone">+48 111 111 111</li>
         </ul>
     </header>
 
     <main>
         <section class="request">
-              <h1 class="request-txt">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
+              <h1>EFFEKTYWNE ROZWIĄZANIA<br>DLA WASZEGO BIZNESU</h1>
                  <button class="button" type="button">Zamów usługę</button>
         </section>
         
-        <section class="section">
+        <section class="about-us container section">
             <div>
                 <h3 class="about-tittle">ATTENTION TO DETAILS</h3>
                     <p class="about-description">We go into all the details and processes of your busuness to develop a customized solution.</p>
@@ -55,39 +55,39 @@
             </div>
         </section>
         
-        <section>
-            <h2 class="job-tittle"> Czym się zajmujemy </h2>
-                <ul class="job-photo">
-                    <li><img classs="job-img" src="./images/img.jpg" alt="Mężczyzna siedzacy przy biurku i piszący na klawiaturze" width="370" height="294"></li>
-                    <li><img classs="job-img" src="./images/img2.jpg" alt="Kobieta trzymająca telefon w dłoni i pracująca na komputerze" width="370" height="294"></li>
-                    <li><img classs="job-img" src="./images/img1.jpg" alt="Kobieta korzystajaca z tableta" width="370" height="294"></li>
+        <section class="job-section container">
+            <h2 class="job-tittle"> What we do </h2>
+                <ul class="photo-list">
+                    <li><img class="job-photo" src="./images/img.jpg" alt="Mężczyzna siedzacy przy biurku i piszący na klawiaturze" width="370" height="294"></li>
+                    <li><img class="job-photo" src="./images/img2.jpg" alt="Kobieta trzymająca telefon w dłoni i pracująca na komputerze" width="370" height="294"></li>
+                    <li><img class="job-photo" src="./images/img1.jpg" alt="Kobieta korzystajaca z tableta" width="370" height="294"></li>
                 </ul>  
         </section>
 
-        <section class="team-section container">
-            <h2 class="team">Nasz zespół</h2>
-                <ul class="team-photo">
+        <section class="team-section container section">
+            <h2 class="team-tittle">Our Team</h2>
+                <ul class="img-list">
                     <li>
-                        <figure>
-                            <img class="our-photo" src="./images/img6.jpg" alt="Uśmiechnięty mężczyzna w okularach i zarostem ubrany w brązową koszulę" width="270" height="260">
+                        <figure class="our-img">
+                            <img src="./images/img6.jpg" alt="Uśmiechnięty mężczyzna w okularach i zarostem ubrany w brązową koszulę" width="270" height="260">
                                 <figcaption class="name">Zenek Martyniuk<span class="position"> Product Designer</span></figcaption>
                         </figure>
                     </li>
                     <li>
-                        <figure>
-                            <img class="our-photo" src="./images/img5.jpg" alt="Uśmiechnięta kobieta o włosach blond ubrana w czarny żakiet" width="270" height="260">
+                        <figure class="our-img">
+                            <img src="./images/img5.jpg" alt="Uśmiechnięta kobieta o włosach blond ubrana w czarny żakiet" width="270" height="260">
                                 <figcaption class="name">Ewa Rozkojarzona<span class="position"> Frontend Developer</span></figcaption>
                         </figure>
                     </li>
                     <li>
-                        <figure>
-                             <img class="our-photo" src="./images/img4.jpg" alt="Uśmiechnięty męczyzna w niebieskiej koszuli" width="270" height="260">
+                        <figure class="our-img">
+                             <img src="./images/img4.jpg" alt="Uśmiechnięty męczyzna w niebieskiej koszuli" width="270" height="260">
                                 <figcaption class="name">Piotr Niezdyscyplinoany<span class="position"> Marketing</span></figcaption>
                         </figure>
                     </li>
                     <li>
-                        <figure>
-                            <img class="our-photo" src="./images/img3.jpg" alt="Uśmiechnięty mężczyzna w okularach i zarostem ubrany w czarną koszulkę" width="270" height="260">
+                        <figure class="our-img">
+                            <img src="./images/img3.jpg" alt="Uśmiechnięty mężczyzna w okularach i zarostem ubrany w czarną koszulkę" width="270" height="260">
                                 <figcaption class="name">Bartek Spóźnialski <span class="position"> UI Designer</span></figcaption>
                         </figure>
                     </li>
@@ -95,18 +95,18 @@
             </section>
         </main>
 
-        <footer class="footer">
-            <section>
-                <h4>
-                    <a class="second-main-tittle" href="./index.html">Web<span class="second-rest-tittle">Studio</span></a>
-                </h4>
-                <address class="address">
-                    695 Park Ave, New York, NY 10065
-                    United States
-                    <a class="second-email" href="mailto:info@example.com">info@example.com</a>
-                    <a class="second-phone" href="tel:+1-212-772-4150">+1 212-772-4150</a>
-                </address>
-            </section>
-        </footer>
+            <footer class="footer">
+                <section class="footer-section">
+                    <h4>
+                        <a class="second-main-tittle" href="./index.html">Web<span class="second-rest-tittle">Studio</span></a>
+                    </h4>
+                    <address class="address">
+                        695 Park Ave, New York, NY 10065
+                        United States
+                        <a class="second-email" href="mailto:info@example.com">info@example.com</a>
+                        <a class="second-phone" href="tel:+1-212-772-4150">+1 212-772-4150</a>
+                    </address>
+                </section>
+            </footer>
 </body>
 </html>
